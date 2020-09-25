@@ -24,10 +24,6 @@
     "price": {
       "type": "decimal"
     },
-    "categories": {
-      "collection": "category",
-      "via": "events"
-    },
     "image": {
       "model": "file",
       "via": "related",
@@ -38,6 +34,10 @@
       ],
       "plugin": "upload",
       "required": false
+    },
+    "category": {
+      "via": "events",
+      "model": "category"
     }
   }
 }

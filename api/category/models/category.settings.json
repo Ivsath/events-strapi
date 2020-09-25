@@ -13,9 +13,8 @@
       "type": "string"
     },
     "events": {
-      "via": "categories",
       "collection": "event",
-      "dominant": true
+      "via": "category"
     }
   }
 }
